@@ -20,7 +20,7 @@ from sklearn.metrics import mean_absolute_error
 import math
 import time
 
-series =pd.read_csv("D:/xin/segrnn/segRNN_1/df_male_1.csv")
+series =pd.read_csv("") #put your file in here
 n=0
 m=1
 def calMAPE(actual, predict):
